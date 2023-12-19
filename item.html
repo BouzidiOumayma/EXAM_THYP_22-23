@@ -29,20 +29,22 @@
 
     // Fetch data and populate the dropdown
     function populateDropdown(url) {
-      d3.json(url, function (error, data) {
-        if (error) throw error;
+        d3.json(url, function (error, data) {
+            if (error) throw error;
 
-        const select = d3.select('#itemSelect');
-        const options = select.selectAll('option').data(data);
+            const select = d3.select('#itemSelect');
+            const options = select.selectAll('option').data(data, function(d) { return d && d["o:id"]; });
 
-        options.enter()
-          .append('option')
-          .attr('value', (d) => d["o:id"])
-          .text((d) => d["o:id"]);
+            options.enter()
+            .append('option')
+            .attr('value', (d) => d && d["o:id"])
+            .text((d) => d && d["o:id"]);
 
-        options.exit().remove();
-      });
+            options.exit().remove();
+        });
     }
+
+
 
     // Show item details based on the selected ID
     function showItemDetails(selectedId) {
