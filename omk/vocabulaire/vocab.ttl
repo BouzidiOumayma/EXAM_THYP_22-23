@@ -1,0 +1,78 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix oly: <https://Olympique.univ-paris8.fr/onto/oly#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<https://Olympique.univ-paris8.fr/onto/oly#> a owl:Ontology ;
+    dcterms:title "Jeux Olympiques" .
+
+
+oly:Athlete a rdfs:Class ;
+    rdfs:label "Athlete" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+oly:Sport a rdfs:Class ;
+    rdfs:label "Sport" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+oly:Event a rdfs:Class ;
+    rdfs:label "Event" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+oly:Result a rdfs:Class ;
+    rdfs:label "Result" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+oly:athleteId a rdf:Property ;
+    rdfs:label "Athlete ID" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+oly:athleteName a rdf:Property ;
+    rdfs:label "Athlete Name" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+oly:sportId a rdf:Property ;
+    rdfs:label "Sport ID" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+oly:sportName a rdf:Property ;
+    rdfs:label "Sport Name" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+oly:eventId a rdf:Property ;
+    rdfs:label "Event ID" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+oly:eventName a rdf:Property ;
+    rdfs:label "Event Name" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+oly:eventDate a rdf:Property ;
+    rdfs:label "Event Date" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+oly:resultId a rdf:Property ;
+    rdfs:label "Result ID" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+oly:resultValue a rdf:Property ;
+    rdfs:label "Result Value" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
