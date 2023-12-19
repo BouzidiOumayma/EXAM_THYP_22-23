@@ -1,0 +1,295 @@
+[
+    {
+        "@context": "http:\/\/localhost\/omeka-s\/api-context",
+        "@id": "http:\/\/localhost\/omeka-s\/api\/items\/10",
+        "@type": "o:Item",
+        "o:id": 10,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http:\/\/localhost\/omeka-s\/api\/users\/1",
+            "o:id": 1
+        },
+        "o:resource_class": null,
+        "o:resource_template": {
+            "@id": "http:\/\/localhost\/omeka-s\/api\/resource_templates\/6",
+            "o:id": 6
+        },
+        "o:thumbnail": null,
+        "o:title": "Athl\u00e8te",
+        "thumbnail_display_urls": {
+            "large": null,
+            "medium": null,
+            "square": null
+        },
+        "o:created": {
+            "@value": "2023-12-19T09:26:21+00:00",
+            "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2023-12-19T09:30:35+00:00",
+            "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+        },
+        "o:primary_media": null,
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [
+            {
+                "@id": "http:\/\/localhost\/omeka-s\/api\/sites\/2",
+                "o:id": 2
+            },
+            {
+                "@id": "http:\/\/localhost\/omeka-s\/api\/sites\/3",
+                "o:id": 3
+            }
+        ],
+        "dcterms:title": [
+            {
+                "type": "literal",
+                "property_id": 1,
+                "property_label": "Title",
+                "is_public": true,
+                "@value": "Athl\u00e8te"
+            }
+        ],
+        "oly:athleteId": [
+            {
+                "type": "literal",
+                "property_id": 252,
+                "property_label": "Athlete ID",
+                "is_public": true,
+                "@value": "A001"
+            }
+        ],
+        "oly:athleteName": [
+            {
+                "type": "literal",
+                "property_id": 253,
+                "property_label": "Athlete Name",
+                "is_public": true,
+                "@value": "Amine Latachi"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/localhost\/omeka-s\/api-context",
+        "@id": "http:\/\/localhost\/omeka-s\/api\/items\/11",
+        "@type": "o:Item",
+        "o:id": 11,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http:\/\/localhost\/omeka-s\/api\/users\/1",
+            "o:id": 1
+        },
+        "o:resource_class": null,
+        "o:resource_template": {
+            "@id": "http:\/\/localhost\/omeka-s\/api\/resource_templates\/7",
+            "o:id": 7
+        },
+        "o:thumbnail": null,
+        "o:title": "Sport",
+        "thumbnail_display_urls": {
+            "large": null,
+            "medium": null,
+            "square": null
+        },
+        "o:created": {
+            "@value": "2023-12-19T09:33:02+00:00",
+            "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2023-12-19T09:33:02+00:00",
+            "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+        },
+        "o:primary_media": null,
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [
+            {
+                "@id": "http:\/\/localhost\/omeka-s\/api\/sites\/2",
+                "o:id": 2
+            },
+            {
+                "@id": "http:\/\/localhost\/omeka-s\/api\/sites\/3",
+                "o:id": 3
+            }
+        ],
+        "dcterms:title": [
+            {
+                "type": "literal",
+                "property_id": 1,
+                "property_label": "Title",
+                "is_public": true,
+                "@value": "Sport"
+            }
+        ],
+        "oly:sportId": [
+            {
+                "type": "literal",
+                "property_id": 254,
+                "property_label": "Sport ID",
+                "is_public": true,
+                "@value": "S001"
+            }
+        ],
+        "oly:sportName": [
+            {
+                "type": "literal",
+                "property_id": 255,
+                "property_label": "Sport Name",
+                "is_public": true,
+                "@value": "Natation"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/localhost\/omeka-s\/api-context",
+        "@id": "http:\/\/localhost\/omeka-s\/api\/items\/12",
+        "@type": "o:Item",
+        "o:id": 12,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http:\/\/localhost\/omeka-s\/api\/users\/1",
+            "o:id": 1
+        },
+        "o:resource_class": null,
+        "o:resource_template": {
+            "@id": "http:\/\/localhost\/omeka-s\/api\/resource_templates\/8",
+            "o:id": 8
+        },
+        "o:thumbnail": null,
+        "o:title": "Evenement",
+        "thumbnail_display_urls": {
+            "large": null,
+            "medium": null,
+            "square": null
+        },
+        "o:created": {
+            "@value": "2023-12-19T09:34:13+00:00",
+            "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2023-12-19T09:34:13+00:00",
+            "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+        },
+        "o:primary_media": null,
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [
+            {
+                "@id": "http:\/\/localhost\/omeka-s\/api\/sites\/2",
+                "o:id": 2
+            },
+            {
+                "@id": "http:\/\/localhost\/omeka-s\/api\/sites\/3",
+                "o:id": 3
+            }
+        ],
+        "dcterms:title": [
+            {
+                "type": "literal",
+                "property_id": 1,
+                "property_label": "Title",
+                "is_public": true,
+                "@value": "Evenement"
+            }
+        ],
+        "oly:eventId": [
+            {
+                "type": "literal",
+                "property_id": 256,
+                "property_label": "Event ID",
+                "is_public": true,
+                "@value": "E001"
+            }
+        ],
+        "oly:eventName": [
+            {
+                "type": "literal",
+                "property_id": 257,
+                "property_label": "Event Name",
+                "is_public": true,
+                "@value": "100 m\u00e8tres papillon"
+            }
+        ],
+        "oly:eventDate": [
+            {
+                "type": "literal",
+                "property_id": 258,
+                "property_label": "Event Date",
+                "is_public": true,
+                "@value": "2023-08-01"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/localhost\/omeka-s\/api-context",
+        "@id": "http:\/\/localhost\/omeka-s\/api\/items\/13",
+        "@type": "o:Item",
+        "o:id": 13,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http:\/\/localhost\/omeka-s\/api\/users\/1",
+            "o:id": 1
+        },
+        "o:resource_class": null,
+        "o:resource_template": {
+            "@id": "http:\/\/localhost\/omeka-s\/api\/resource_templates\/9",
+            "o:id": 9
+        },
+        "o:thumbnail": null,
+        "o:title": "Resultat",
+        "thumbnail_display_urls": {
+            "large": null,
+            "medium": null,
+            "square": null
+        },
+        "o:created": {
+            "@value": "2023-12-19T09:35:08+00:00",
+            "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2023-12-19T09:35:08+00:00",
+            "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+        },
+        "o:primary_media": null,
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [
+            {
+                "@id": "http:\/\/localhost\/omeka-s\/api\/sites\/2",
+                "o:id": 2
+            },
+            {
+                "@id": "http:\/\/localhost\/omeka-s\/api\/sites\/3",
+                "o:id": 3
+            }
+        ],
+        "dcterms:title": [
+            {
+                "type": "literal",
+                "property_id": 1,
+                "property_label": "Title",
+                "is_public": true,
+                "@value": "Resultat"
+            }
+        ],
+        "oly:resultId": [
+            {
+                "type": "literal",
+                "property_id": 259,
+                "property_label": "Result ID",
+                "is_public": true,
+                "@value": "R001"
+            }
+        ],
+        "oly:resultValue": [
+            {
+                "type": "literal",
+                "property_id": 260,
+                "property_label": "Result Value",
+                "is_public": true,
+                "@value": "10.2 secondes"
+            }
+        ]
+    }
+]
